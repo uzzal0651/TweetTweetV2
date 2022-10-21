@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet Tweet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="./icofont/icofont.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+      <div class="row">
+        <h1 class="tittle-main">Tweet tweet</h1>
+        <input
+          type="text"
+          class="tw-input-txt"
+          placeholder="Filter..."
+        />
+        <div class="tweetContainer">
+
+          
+        </div>
+        
+
+        <input type="text" class="tw-input-txt2 input-title" placeholder="Title" />
+
+        <input type="text" class="tw-input-txt3 input-title" placeholder="Price" />
+        <div style="margin-top: 16px"><strong>Word Limit 10 </strong> <div class="wordCount" style="margin-top:12px">Word Count: </div></div>
+       <textarea    name="tweetDesc" class="tweetDesc textatrea_desc" id="tweetDesc" cols="30" rows="10"></textarea>
+        
+        <div class="row align-center">
+          <button id="btn-tweet" type="submit" class="btn-submit">Tweet</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  </body>
+  <script src="./main.js"></script>
+</html>
+ 
